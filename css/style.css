@@ -497,7 +497,7 @@ ul {
     margin-right: 120px;
 }
 .form-footer{
-    margin: left 80px; ;
+    margin-left: 80px; 
 }
 .title-footer-form{
  color: #fff;
@@ -510,4 +510,17 @@ margin-bottom: 16px;
 .group{
   display: flex;
 gap: 24px;  
+}
+.input-footer{
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
