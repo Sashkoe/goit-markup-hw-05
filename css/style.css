@@ -512,7 +512,7 @@ margin-bottom: 16px;
 gap: 24px;  
 }
 .input-footer{
-    color: var(--WHITE, #FFF);
+    color: #FFFFFF;
     width: 264px;
     height: 40px;
     border-radius: 4px;
@@ -544,4 +544,6 @@ letter-spacing: 0.04em;
 }
 .icon-btn-footer{
     margin-left: 16px;
+    width: 24px;
+    height: 24px;
 }
