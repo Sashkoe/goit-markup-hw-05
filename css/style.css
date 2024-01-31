@@ -24,7 +24,9 @@ img {
     padding: 0 15px;
     margin:0 auto;
 }
-
+.p{
+margin: 0;
+}
 
 .header-page{
     border-bottom: 1px solid  #E7E9FC;
@@ -493,4 +495,15 @@ ul {
 }
 .foo{
     margin-right: 120px;
+}
+.form-footer{
+    margin: left 80px; ;
+}
+.title-footer-form{
+ color: #fff;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+margin-bottom: 16px;   
 }
