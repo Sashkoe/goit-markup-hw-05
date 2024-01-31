@@ -524,3 +524,20 @@ gap: 24px;
     padding-left: 16px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+.btn-footer{
+  min-width: 165px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+border-radius: 4px;
+background-color: #4d5ae5;
+border: none;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;  
+}
