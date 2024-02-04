@@ -659,7 +659,7 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .texterea-modal{
     margin-bottom: 16px;
 }
-.texterea-modal:focus{
+.form-texterea:focus{
     border-color: #4D5AE5;
 }
 .form-textarea {
