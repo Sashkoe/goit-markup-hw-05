@@ -755,3 +755,6 @@ fill: #F4F4FD;
     background: #404BBF;
 
 }
+.form-input:focus+.icon-input {
+    fill: #4D5AE5;
+}
