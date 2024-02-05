@@ -645,21 +645,20 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input:focus{
-    border-color: #4D5AE5; 
-}
+
 .icon-input{
     position: absolute;
     top: 50%;
     left: 16px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: #4D5AE5;
+    fill: #2F4F4F;
 }
+    
 .texterea-modal{
     margin-bottom: 16px;
 }
-.form-texterea:focus{
+.form-textarea:focus{
     border-color: #4D5AE5;
 }
 .form-textarea {
@@ -720,14 +719,8 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn-modal:hover{
-    background-color: #404bbf;
-    border: none;
-}
-.btn-modal:focus{
-    background-color: #404bbf;
-    border: none;
-}
+
+
 .modal:focus{
     fill: #ffffff
 }
@@ -738,4 +731,14 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #4d5ae5; 
     text-decoration-line: underline;
 }
-
+.hidden-checkbox:checked + .checkbox .custom-checkbox{
+background-color: #404bbf;
+border: none;
+fill: #F4F4FD;
+}
+.btn-modal:focus{
+background-color: #434455;
+}
+.btn-modal:hover{
+background-color: #434455;
+}
