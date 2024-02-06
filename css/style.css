@@ -753,6 +753,8 @@ fill: #F4F4FD;
     background: #404BBF;
 
 }
-.form-input:focus+.icon-input {
+.form-input:focus+.icon-input+.checkmark {
     fill: #4D5AE5;
 }
+
+    
