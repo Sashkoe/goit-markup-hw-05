@@ -758,8 +758,6 @@ fill: #F4F4FD;
 .form-input:focus+.icon-input{
     fill: #4D5AE5;
 }
-
-.custom-checkbox:hover{
+.hidden-checkbox:focus + .custom-checkbox{
     border-color: #4D5AE5;
-
-    }
+}
